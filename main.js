@@ -37,8 +37,8 @@ class ShapeCalculator {
 
 // Exemplo de uso da classe ShapeCalculator
 const calculator = new ShapeCalculator();
-calculator.addShape('square', 4);
-calculator.addShape('rectangle', 4, 5);
-calculator.addShape('circle', 3);
-calculator.addShape('triangle', 4, 5);
+calculator.addShape('square', 9);
+calculator.addShape('rectangle', 9, 9);
+calculator.addShape('circle', 9);
+calculator.addShape('triangle', 9, 9);
 calculator.printAreas();
